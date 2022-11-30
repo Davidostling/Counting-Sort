@@ -8,8 +8,8 @@ for i in range(0, max(A)+1): #initializes Count with 0:s
     Count.append(0)
 for j in range(0, len(A)):
     Count[A[j]]+=1 #Counts all elements
-print(Count)
+print("Count: ", Count)
 for i in range(0, len(Count)):
     for j in range(Count[i]): 
         sortedA.append(i) #Returns copies of all elements
-print(sortedA)
+print("Sorted: ", sortedA)
