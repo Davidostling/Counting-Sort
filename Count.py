@@ -1,7 +1,5 @@
 A = [2, 2, 1, 2, 5, 2, 3, 1] #input array
-ExampleCount = [0, 2, 4, 1, 0, 1] #corresponding count array to above input
-
-Count=[]
+Count=[] #corresponding count array to above input
 
 sortedA = []
 for i in range(0, max(A)+1): #initializes Count with 0:s
